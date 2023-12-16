@@ -21,7 +21,7 @@ env:
 
 jobs: 
   terraform:
-     runs_on:  ubuntu-latest
+     runs-on:  ubuntu-latest
      defaults:
       run:
         shell: bash
