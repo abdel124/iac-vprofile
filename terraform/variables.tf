@@ -11,3 +11,4 @@ variable "clusterName" {
 }
 
 #####
+# -backend-config="bucket=$BUCKET_TF_STATE"
