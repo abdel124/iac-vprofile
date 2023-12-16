@@ -26,12 +26,6 @@ terraform {
     }
   }
 
-/*   backend "s3" {
-    bucket = "vprofileactions124"
-    key    = "terraform.tfstate"
-    region = "us-west-1"
-  } */
-
   required_version = "~> 1.6.3"
 }
 ##
