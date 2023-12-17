@@ -5,8 +5,6 @@ provider "kubernetes" {
 
 provider "aws" {
   region = var.region
-  shared_credentials_files = "~/.aws/credentials"
-  profile = "default"
 }
 
 data "aws_availability_zones" "available" {}
